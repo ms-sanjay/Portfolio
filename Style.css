@@ -53,6 +53,8 @@ html {
   font-size: 2rem;
   cursor: pointer;
   user-select: none;
+  position: relative;
+  right:0.5rem;
 }
 
 .nav-links {
