@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-name">Sanjay M S</div>
+        <div class="nav-menu-icon" id="navMenuIcon">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#Certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+<section id="home" class="section">
+  <div class="container">
+    <div class="info">
+        <div class="Intro">Hello, I'm Sanjay</div>
+        <div class="about">
+          Final-year Electronics and Communication Engineering student at VIT Vellore, with a growing interest in web technologies and a strong passion for embedded systems. Comfortable working with Java, SQL, and basic Object-Oriented Programming, as well as building user interfaces using HTML, CSS, and JavaScript. Experienced with microcontrollers, real-time embedded projects. Motivated by hands-on learning, I enjoy creating systems that combine hardware and software to solve real-world problems.      
+        </div>
+      <div class="links">
+        <div class="icons" style="--p:1">
+          <a href="https://www.linkedin.com/in/sanjay234" target="_blank">
+            <img src="Assets/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+
+        <div class="icons" style="--p:2">
+        <a href="https://github.com/ms-sanjay" target="_blank">
+          <img src="Assets/github.png" alt="GitHub">
+        </a>
+        </div>
+        <div class="icons" style="--p:3">
+        <a href="https://leetcode.com/u/Sanjay_2/" target="_blank">
+          <img src="Assets/icons8-leetcode-50.png" alt="LeetCode">
+        </a>
+        </div>
+        <div class="icons" style="--p:4">
+        <a href="https://wa.me/916382160049?text=Hi%20Sanjay!%20I%20saw%20your%20portfolio." target="_blank">
+          <img src="Assets/whatsapp.png" alt="WhatsApp">
+        </a>
+        </div>
+      </div>
+      <button onclick="handle('Assets/Resume.pdf')">My Resume</button>
+    </div>
+    <div class="oc">
+      <div class="circle">
+        <img src="Assets/photo_.png">
+      </div>
+    </div>
+</section>
+
+<section id="about">
+        <span>
+
+        </span>
+        <div class="one">
+          @ About Me
+        </div>
+            <div class="two">
+              <img src="Assets/user.png" alt="profile">
+               A tech enthusiast with a deep passion for building solutions that connect software and hardware. My interests span across full-stack web development, embedded systems, cloud computing, and networking. I love working on real-world problems through hands-on projects that bring ideas to life.
+            </div>
+
+            <div class="three">
+              <img src="Assets/circuit.png" alt="hardware">
+              I'm experienced in working with microcontrollers like 8051, ESP32, and STM32, and I use C and Embedded C to create responsive, real-time embedded applications. I also explore system-level design and circuit analysis through tools like Keil µVision, MATLAB, Cadence Virtuoso, and Cisco Packet Tracer.
+            </div>
+
+            <div class="four">
+              <img src="Assets/coding.png" alt="software">
+              On the software side, I enjoy crafting interactive user experiences using HTML, CSS, and JavaScript, while applying Object-Oriented Programming principles in Java. I’m especially excited by projects that bring together embedded hardware with live web-based interfaces to solve meaningful challenges.
+            </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="container">
+      <div>
+          <h1><img src="Assets/devops.png" style="width: 30px; height: 30px; position: relative; top:0.5rem;"> Software & Programming<h1>
+          <ul id="It">
+              <li>Java (Basic OOP)</li>
+              <li>Embedded C</li>
+              <li>MySQL</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React.js (Basics)</li>
+              <li>Cloud Basics (AWS, Firebase)</li>
+          </ul>
+      </div>
+      <div class="ci-wrapper">
+      <div class="ci">
+          <div class="img-track">
+            <img src="Assets/program.png" style="--position:  1;">
+            <img src="Assets/c-.png" style="--position:  2;">
+            <img src="Assets/html.png" style="--position:  3;">
+            <img src="Assets/javascript.png" style="--position:  4;">
+            <img src="Assets/css.png" style="--position:  5;">
+            <img src="Assets/cloud.png" style="--position:  6;">
+            <img src="Assets/network.png" style="--position:  7;">
+            <img src="Assets/sql-server.png" style="--position:  8;">
+            <img src="Assets/chip (2).png" style="--position:  9;">
+            <img src="Assets/coding.png" style="--position:  10;">
+          </div>
+      </div>
+      </div>
+      <div>
+          <h1><img src="Assets/cpu (1).png" style="width: 30px; height: 30px; position: relative; top:0.5rem;"> Core & Electronics</h1>
+          <ul>
+              <li>VLSI Design</li>
+              <li>Assembly Language Programming (ALP)</li>
+              <li>Microcontrollers (8051, ESP32)</li>
+              <li>Embedded Systems</li>
+              <li>Digital Electronics</li>
+              <li>Computer Networks</li>
+          </ul>
+      </div>
+    </div>
+  </section>
+  <section id="project">
+    <h2>Project Work</h2>
+    <div class="container">
+      <div class="projects" onclick="this.classList.toggle('flipped')">
+        <div class="front">
+          <div class="cover">
+            <div class="click-tooltip">Click for More!</div>
+            <img src="Assets/cpu.png" alt="cpu" class="bi">
+            <div>
+              <img src="Assets/cpu.png" alt="cpu">
+              <h1>8051 MicroController Project</h1>
+              <ul id="tech">
+                <li>8051</li>
+                <li>ALP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <div class="description"> The Car Parking System using 8051 is an automated gate control system designed using Assembly Language Programming (ALP). The system uses IR sensors to detect vehicles at both the entry and exit points. When a vehicle arrives at the entry gate, the IR sensor detects its presence, and the 8051 microcontroller checks for available parking space using a counter logic. If a slot is available, the microcontroller sends a signal to the motor driver to open the gate; otherwise, access is denied. At the exit gate, the IR sensor triggers the gate to open and the counter is updated accordingly. The project was developed using ALP on the Keil IDE and simulated using Proteus. Through this project, I gained hands-on experience in low-level hardware control, sensor integration, and motor interfacing—key skills in embedded system design.</div>
+          </div>
+        </div>
+        <div class="back">
+          <button onclick="handle('Assets/8051.pdf')">View Report</button>
+          <button onclick="handle('https://github.com/ms-sanjay/CarParkingSystem')">GitHub Repository</button> 
+        </div>
+      </div>
+
+      <div class="projects" onclick="this.classList.toggle('flipped')">
+        <div class="front">
+          <div class="cover" style="background: rgba(0, 0, 0, 0.804);">
+            <div class="click-tooltip">Click for More!</div>
+            <img src="Assets/flutter.png" alt="cpu" class="bi">
+            <div>
+              <img src="Assets/flutter.png" alt="cpu">
+              <h1>Flood Level Detection</h1>
+              <ul id="tech">
+                <li>Flutter</li>
+                <li>Embedded C</li>
+                <li>Firebase</li>
+                <li>ESP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+              <div class="description">The Smart Flood-Level Monitoring System uses an ESP32 microcontroller and an ultrasonic sensor to measure water levels by calculating the distance to the road surface. It classifies flood severity into Safe, Caution, or Not Safe categories and sends data via Wi-Fi to a Firebase cloud database for real-time monitoring. An Android app displays color-coded alerts to help users and authorities make quick decisions during floods. The system’s modular design supports multiple sensor nodes, enabling easy expansion for city-wide coverage. It also filters out false readings caused by environmental factors to improve accuracy. This project provided hands-on experience in IoT programming, sensor integration, cloud communication, and mobile app development, creating a cost-effective flood monitoring solution.</div>
+          </div>
+        </div>
+        <div class="back">
+          <button onclick="handle('Assets/esp32.pdf')">View Report</button>
+          <button>GitHub Repository</button>
+        </div>
+      </div>
+
+      <div class="projects" onclick="this.classList.toggle('flipped')">
+        <div class="front">
+          <div class="cover" style="background: rgba(0, 0, 0, 0.804);">
+            <div class="click-tooltip">Click for More!</div>
+            <img src="Assets/wi-fi.png" alt="cpu" class="bi">
+            <div>
+              <img src="Assets/wi-fi.png" alt="cpu">
+              <h1>Emergency Chat Box</h1>
+              <ul id="tech">
+                    <li>EmbeddedC</li>
+                    <li>ESP</li>
+                    <li>WebServer</li>
+                    <li>Wifi</li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+                <div class="description">The Emergency Chat Box project utilizes ESP8266 Wi-Fi modules to enable offline communication between a sender and receiver through a captive portal and WebSockets, without requiring an internet connection. The sender ESP8266 acts as a Wi-Fi Access Point hosting a chat interface, while the receiver connects to this network and displays incoming messages on an OLED screen. Messages are transmitted in real-time with low latency using WebSockets, and the receiver acknowledges messages via a push button, ensuring reliable communication during emergencies. The system’s queueing mechanism manages multiple messages in order, preventing message loss. Developed using Embedded C, this project provided practical experience in embedded system programming, wireless communication, sensor interfacing, and real-time data handling, making it a robust solution for critical offline messaging.</div>
+          </div>
+        </div>
+        <div class="back">
+          <button onclick="handle('Assets/esp8266.pdf')">View Report</button>
+          <button>GitHub Repository</button>
+        </div>
+      </div>
+
+      <div class="projects" onclick="this.classList.toggle('flipped')">
+        <div class="front">
+          <div class="cover">
+            <div class="click-tooltip">Click for More!</div>
+            <img src="Assets/machine-learning.png" alt="cpu" class="bi">
+            <div>
+              <img src="Assets/machine-learning.png" alt="cpu">
+              <h1>ML based Foot Arch Detection</h1>
+              <ul id="tech">
+                    <li>BioMedical</li>
+                    <li>React.js</li>
+                    <li>ML</li>
+                    <li>FlaskAPI</li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+              <div class="description">This project automates foot arch classification using Harris mat footprint images transformed into pressure heatmaps. Machine learning models—Support Vector Machines (SVM) and Convolutional Neural Networks (CNN)—classify Pes Cavus, Pes Planus, and Normal Arch with high accuracy. The CNN model achieved 92% accuracy with strong precision, recall, and F1 scores. Using Gaussian-based pressure modeling, the system analyzes plantar pressure without sensors, providing biomechanically valid results. Built with OpenCV and advanced image processing, it includes a React-based web platform for real-time visualization and easy access to pressure data. This sensorless, cost-effective method enables early detection and monitoring of foot abnormalities for clinical and remote healthcare use.</div>
+          </div>
+        </div>
+        <div class="back">
+          <button onclick="handle('Assets/Biomed.pdf')">View Report</button>
+          <button onclick="handle('https://github.com/ms-sanjay/EmergencyChatBox')">GitHub Repository</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  
+
+  <section id="Certificates">
+    <h2>Certifications</h2>
+    <div class="container">
+      <div class="certi">
+          <div class="info">
+            <h1><img src="Assets/award.png">SQL(Intermediate)</h1>
+            <p>From HackerRank (Solved SQL Queries involving Joins and sub Queries)</p>
+            <button onclick="openModal('Certificates/My SQL.png')">View Certificate</button>
+          </div>
+      </div>
+      <div class="certi">
+            <div class="info">
+            <h1><img src="Assets/award.png">AWS Cloud Practitioner</h1>
+            <p>From AWS SkillBuild (Cloud computing fundamentals)</p>
+            <button onclick="openModal('Certificates/AWS.png')">View Certificate</button>
+          </div>
+      </div>
+      <div class="certi">
+          <div class="info">
+            <h1><img src="Assets/award.png">ESP Workshop</h1>
+            <p>From Technical Workshop (gained Hands-On experience with esp32 and sensor interfacing)</p>
+            <button onclick="openModal('Certificates/ESP.png')">View Certificate</button>
+          </div>
+      </div>
+      <div class="certi">
+            <div class="info">
+            <h1><img src="Assets/award.png">Bare Metal Programming</h1>
+            <p>From Udemy (gained Knowledge of ARM cortex-M series with hands on embedded C programming )</p>
+            <button onclick="openModal('Certificates/driver.png')">View Certificate</button>
+          </div>
+      </div>
+      <div class="certi">
+            <div class="info">
+            <h1><img src="Assets/award.png">Merit Award</h1>
+            <p>From VIT</p>
+            <button onclick="openModal('Certificates/Merit_2.jpg')">View Certificate</button>
+          </div>
+      </div>
+    </div>
+            <div id="imageModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="popupImage">
+            </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="container">
+      <div class="info" id="ph" onclick="toph()">
+        <div class="sec">
+            <img src="Assets/phone.png">
+            <h1>Mobile Number</h1>
+            <p>+91 6382160049</p>
+        </div>
+      </div>
+      <div class="info" id="mail" onclick="toMail()">
+          <div class="sec">
+            <img src="Assets/message.png" style="filter: invert(1);">
+            <h1>Email</h1>
+            <p>mssanjay180@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="./Script.js"></script>
+</html>
