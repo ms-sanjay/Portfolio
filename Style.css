@@ -984,3 +984,19 @@ html {
     font-size: 0.8rem;
   }
 }
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a,
+.nav-menu-icon,
+.projects,
+.certi,
+.info,
+.clickable {
+  -webkit-touch-callout: none;
+  user-select: none;
+  cursor: pointer;
+}
